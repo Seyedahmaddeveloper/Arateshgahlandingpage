@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آرایشگاه زنانه رویال | خدمات زیبایی در تهران</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+        
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+        
+        .stylist-card:hover img {
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card {
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <div class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold text-xl">رویال</div>
+                <h1 class="mr-3 text-xl font-bold text-gray-800">آرایشگاه زنانه رویال</h1>
+            </div>
+            
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8 space-x-reverse">
+                    <li><a href="#" class="text-pink-600 font-medium">خانه</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-pink-600 transition">خدمات</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-pink-600 transition">آرایشگران</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-pink-600 transition">نمونه کارها</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-pink-600 transition">درباره ما</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-pink-600 transition">تماس با ما</a></li>
+                </ul>
+            </nav>
+            
+            <div class="flex items-center">
+                <a href="tel:+982188776655" class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full text-sm font-medium transition hidden md:block">
+                    <i class="fas fa-phone ml-2"></i>
+                    021-88776655
+                </a>
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero text-white py-20 md:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl md:text-5xl font-bold mb-6">آرایشگاه تخصصی بانوان در تهران</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">با بهترین آرایشگران و مدرن‌ترین تجهیزات برای زیباترین چهره شما</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#" class="bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-full text-lg font-medium transition">رزرو نوبت آنلاین</a>
+                <a href="#" class="bg-white hover:bg-gray-100 text-pink-600 px-8 py-3 rounded-full text-lg font-medium transition">خدمات ما</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pl-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">آرایشگاه زنانه رویال</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        آرایشگاه رویال با بیش از 15 سال سابقه درخشان در زمینه خدمات زیبایی بانوان، همواره در تلاش بوده تا با بهره‌گیری از آخرین متدهای روز دنیا و استفاده از بهترین محصولات آرایشی و بهداشتی، رضایت کامل مشتریان گرامی را جلب نماید.
+                    </p>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        محیطی آرام و زنانه با کادری مجرب و حرفه‌ای آماده ارائه خدمات تخصصی در زمینه آرایش، رنگ و مش، کراتین، اکستنشن مژه و ابرو و سایر خدمات زیبایی می‌باشد.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center text-pink-500">
+                                <i class="fas fa-award text-xl"></i>
+                            </div>
+                            <div class="mr-3">
+                                <h4 class="font-bold text-gray-800">15+ سال تجربه</h4>
+                                <p class="text-sm text-gray-500">سابقه درخشان</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center text-pink-500">
+                                <i class="fas fa-users text-xl"></i>
+                            </div>
+                            <div class="mr-3">
+                                <h4 class="font-bold text-gray-800">10+ آرایشگر</h4>
+                                <p class="text-sm text-gray-500">متخصص و حرفه‌ای</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="آرایشگاه رویال" class="rounded-lg shadow-xl w-full">
+                        <div class="absolute -bottom-6 -right-6 bg-pink-500 text-white p-4 rounded-lg shadow-lg hidden md:block">
+                            <div class="text-3xl font-bold">98%</div>
+                            <div class="text-sm">رضایت مشتریان</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">خدمات تخصصی ما</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">با بهترین کیفیت و استفاده از مرغوب‌ترین محصولات برای زیبایی شما</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="آرایش صورت" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">آرایش صورت حرفه‌ای</h3>
+                            <div class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">350,000 تومان</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">آرایش صورت برای مراسمات مختلف با بهترین برندهای آرایشی و متناسب با نوع پوست شما</p>
+                        <a href="#" class="text-pink-500 font-medium flex items-center">
+                            اطلاعات بیشتر
+                            <i class="fas fa-arrow-left mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="رنگ و مش مو" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">رنگ و مش مو</h3>
+                            <div class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">450,000 تومان</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">رنگ موی طبیعی و بدون آسیب با استفاده از محصولات اورجینال و تکنیک‌های مدرن مش</p>
+                        <a href="#" class="text-pink-500 font-medium flex items-center">
+                            اطلاعات بیشتر
+                            <i class="fas fa-arrow-left mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="اکستنشن مژه" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">اکستنشن مژه</h3>
+                            <div class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">600,000 تومان</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">اکستنشن مژه به روش کلاسیک و حجمی با مژه‌های باکیفیت و چسب مخصوص</p>
+                        <a href="#" class="text-pink-500 font-medium flex items-center">
+                            اطلاعات بیشتر
+                            <i class="fas fa-arrow-left mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="کراتین مو" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">کراتین مو</h3>
+                            <div class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">800,000 تومان</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">کراتین موی بدون فرمالدهید برای موهای صاف و ابریشمی بدون آسیب به مو</p>
+                        <a href="#" class="text-pink-500 font-medium flex items-center">
+                            اطلاعات بیشتر
+                            <i class="fas fa-arrow-left mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1604186838307-2b8a4f891c71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="میکروبلیدینگ ابرو" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">میکروبلیدینگ ابرو</h3>
+                            <div class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">1,200,000 تومان</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">طراحی و تاتوی ابرو به روش میکروبلیدینگ برای ابروهای طبیعی و زیبا</p>
+                        <a href="#" class="text-pink-500 font-medium flex items-center">
+                            اطلاعات بیشتر
+                            <i class="fas fa-arrow-left mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1596704017259-6c0bb8ba2a2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="ماسک صورت" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-gray-800">ماسک صورت طلا</h3>
+                            <div class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">550,000 تومان</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">ماسک صورت با پودر طلای خالص برای جوانسازی و شفافیت پوست</p>
+                        <a href="#" class="text-pink-500 font-medium flex items-center">
+                            اطلاعات بیشتر
+                            <i class="fas fa-arrow-left mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#" class="inline-block bg-pink-500 hover:bg-pink-600 text-white px-8 py-3 rounded-full text-lg font-medium transition">
+                    مشاهده همه خدمات
+                    <i class="fas fa-arrow-left mr-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Stylists -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">آرایشگران حرفه‌ای ما</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">با بهترین آرایشگران تهران که همواره در حال آموزش و به‌روزرسانی دانش خود هستند</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Stylist 1 -->
+                <div class="stylist-card text-center">
+                    <div class="rounded-full overflow-hidden w-40 h-40 mx-auto mb-6 shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="آرایشگر" class="w-full h-full object-cover transition">
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">نازنین محمدی</h3>
+                    <p class="text-pink-500 mb-4">متخصص رنگ و مش</p>
+                    <div class="flex justify-center space-x-3 space-x-reverse">
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Stylist 2 -->
+                <div class="stylist-card text-center">
+                    <div class="rounded-full overflow-hidden w-40 h-40 mx-auto mb-6 shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="آرایشگر" class="w-full h-full object-cover transition">
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">ستاره حسینی</h3>
+                    <p class="text-pink-500 mb-4">متخصص اکستنشن مژه</p>
+                    <div class="flex justify-center space-x-3 space-x-reverse">
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Stylist 3 -->
+                <div class="stylist-card text-center">
+                    <div class="rounded-full overflow-hidden w-40 h-40 mx-auto mb-6 shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="آرایشگر" class="w-full h-full object-cover transition">
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">پریسا رضایی</h3>
+                    <p class="text-pink-500 mb-4">متخصص میکروبلیدینگ</p>
+                    <div class="flex justify-center space-x-3 space-x-reverse">
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Stylist 4 -->
+                <div class="stylist-card text-center">
+                    <div class="rounded-full overflow-hidden w-40 h-40 mx-auto mb-6 shadow-lg">
+                        <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80" alt="آرایشگر" class="w-full h-full object-cover transition">
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">نیلوفر کریمی</h3>
+                    <p class="text-pink-500 mb-4">متخصص کراتین و صاف کردن مو</p>
+                    <div class="flex justify-center space-x-3 space-x-reverse">
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 bg-gray-100 hover:bg-pink-500 hover:text-white rounded-full flex items-center justify-center text-gray-600 transition">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">نظرات مشتریان ما</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">تجربه زیبایی صدها مشتری راضی از خدمات آرایشگاه رویال</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="مشتری" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">فاطمه احمدی</h4>
+                            <div class="flex text-yellow-400 mt-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        بهترین آرایشگاهی که تا حالا رفتم. آرایشگرها خیلی حرفه‌ای و دلسوز هستند. رنگ مویی که زدن دقیقا همون رنگی شد که می‌خواستم. محیط هم خیلی تمیز و آرومه.
+                    </p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="مشتری" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">زهرا موسوی</h4>
+                            <div class="flex text-yellow-400 mt-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        برای مراسم عروسی دخترم به این آرایشگاه مراجعه کردم. هم آرایش عروس و هم آرایش همراهان عالی بود. همه تعریف می‌کردن که چقدر زیبا آرایش شده‌ایم. ممنون از تیم حرفه‌ایتون.
+                    </p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full overflow-hidden mr-4">
+                            <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80" alt="مشتری" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800">مینا قاسمی</h4>
+                            <div class="flex text-yellow-400 mt-1">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        میکروبلیدینگ ابرو رو از خانم رضایی انجام دادم و واقعا راضیم. ابروها طبیعی و زیبا شدن. محیط آرایشگاه هم خیلی تمیزه و پروتکل‌های بهداشتی رو به دقت رعایت می‌کنن.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-pink-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">آماده زیباتر شدن هستید؟</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">همین حالا نوبت خود را رزرو کنید و از خدمات حرفه‌ای آرایشگاه رویال بهره‌مند شوید</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#" class="bg-white hover:bg-gray-100 text-pink-600 px-8 py-3 rounded-full text-lg font-medium transition">رزرو نوبت آنلاین</a>
+                <a href="tel:+982188776655" class="border-2 border-white hover:bg-white hover:text-pink-600 px-8 py-3 rounded-full text-lg font-medium transition">
+                    <i class="fas fa-phone ml-2"></i>
+                    021-88776655
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">گالری تصاویر</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">نمونه‌کارهای آرایشگاه زنانه رویال</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="نمونه کار" class="w-full h-48 object-cover hover:scale-105 transition">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pl-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">تماس با ما</h2>
+                    <p class="text-gray-600 mb-8 leading-relaxed">
+                        برای رزرو نوبت و دریافت مشاوره رایگان می‌توانید با شماره‌های زیر تماس بگیرید یا از طریق فرم روبرو پیام بگذارید.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 mt-1">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="mr-3">
+                                <h4 class="font-bold text-gray-800">آدرس</h4>
+                                <p class="text-gray-600">تهران، خیابان ولیعصر، بالاتر از میدان ونک، پلاک ۱۲۳۴</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 mt-1">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="mr-3">
+                                <h4 class="font-bold text-gray-800">تلفن</h4>
+                                <p class="text-gray-600">۰۲۱-۸۸۷۷۶۶۵۵</p>
+                                <p class="text-gray-600">۰۹۱۲-۱۲۳۴۵۶۷</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 mt-1">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="mr-3">
+                                <h4 class="font-bold text-gray-800">ایمیل</h4>
+                                <p class="text-gray-600">info@royal-beauty.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-500 mt-1">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="mr-3">
+                                <h4 class="font-bold text-gray-800">ساعات کاری</h4>
+                                <p class="text-gray-600">شنبه تا چهارشنبه: ۹ صبح تا ۹ شب</p>
+                                <p class="text-gray-600">پنجشنبه: ۹ صبح تا ۶ عصر</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 flex space-x-4 space-x-reverse">
+                        <a href="#" class="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center text-white">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center text-white">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <form class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">فرم تماس</h3>
+                        
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 mb-2">نام و نام خانوادگی</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 mb-2">شماره تماس</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        </div>
+                        
+                        <div class="mb-4">
+                            <label for="service" class="block text-gray-700 mb-2">خدمات مورد نظر</label>
+                            <select id="service" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500">
+                                <option value="">انتخاب کنید</option>
+                                <option value="haircut">آرایش صورت</option>
+                                <option value="coloring">رنگ و مش مو</option>
+                                <option value="eyelash">اکستنشن مژه</option>
+                                <option value="keratin">کراتین مو</option>
+                                <option value="microblading">میکروبلیدینگ ابرو</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 mb-2">پیام شما</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-pink-500 hover:bg-pink-600 text-white py-3 rounded-full font-medium transition">
+                            ارسال پیام
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="h-96 bg-gray-200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.365284928368!2d51.38881131526917!3d35.73052298018468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQzJzQ5LjkiTiA1McKwMjMnMjMuOSJF!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold text-xl">رویال</div>
+                        <h3 class="mr-3 text-xl font-bold">آرایشگاه زنانه رویال</h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        ارائه خدمات تخصصی آرایش و زیبایی بانوان با کادری مجرب و استفاده از بهترین محصولات روز دنیا
+                    </p>
+                    <div class="flex space-x-4 space-x-reverse">
+                        <a href="#" class="text-gray-400 hover:text-pink-500 transition">
+                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-pink-500 transition">
+                            <i class="fab fa-telegram text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-pink-500 transition">
+                            <i class="fab fa-whatsapp text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">لینک‌های مفید</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">خانه</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">خدمات ما</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">آرایشگران</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">نمونه کارها</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">درباره ما</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">تماس با ما</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">خدمات ما</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">آرایش صورت</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">رنگ و مش مو</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">اکستنشن مژه</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">کراتین مو</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">میکروبلیدینگ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-pink-500 transition">ماسک صورت طلا</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold mb-6">خبرنامه</h4>
+                    <p class="text-gray-400 mb-4">
+                        برای دریافت جدیدترین تخفیف‌ها و پیشنهادهای ویژه در خبرنامه ما عضو شوید.
+                    </p>
+                    <form class="flex">
+                        <input type="email" placeholder="ایمیل شما" class="px-4 py-2 rounded-r-lg focus:outline-none text-gray-800 w-full">
+                        <button type="submit" class="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-l-lg transition">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>© ۱۴۰۲ کلیه حقوق برای آرایشگاه زنانه رویال محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/989121234567" class="fixed bottom-6 left-6 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-lg transition z-50">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Simple JavaScript for mobile menu toggle (can be expanded)
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('.md\\:hidden');
+            const navMenu = document.querySelector('nav');
+            
+            mobileMenuButton.addEventListener('click', function() {
+                navMenu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
